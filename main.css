@@ -1,0 +1,38 @@
+.MainText{
+  font-size: 5vw;
+  color: rgba(56, 61, 61, 1);
+}
+
+.Text{
+  display: flex;
+  color: rgba(56, 61, 61, 1);;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  z-index: 1;
+}
+
+.MainBody{
+  display: flex;
+  margin-top: 15%;
+  height: 7vw;
+  margin-left: 5%;
+}
+
+.SubText{
+  margin-top: 1vw;
+  margin-left: 25vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.Emphasis{
+  color: rgb(29, 220, 232);
+  letter-spacing: 1px;
+}
+
+#canvas{
+  position: absolute;
+  margin-top: -15%;
+  z-index: -1;
+}
